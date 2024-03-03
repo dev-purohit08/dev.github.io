@@ -5,11 +5,11 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
-    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+   
 
     <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
     <link rel="stylesheet" href="css/animate.css">
-    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
     <link rel="stylesheet" href="css/magnific-popup.css">
@@ -21,6 +21,51 @@
     <link rel="stylesheet" href="css/flaticon.css">
     <link rel="stylesheet" href="css/icomoon.css">
     <link rel="stylesheet" href="css/style.css">
+	<style>
+.scroll-down {
+      position: absolute;
+      bottom: 20px;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+
+    .scroll-down-link {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      background-color: black;
+      border: 2px solid #333;
+      transition: background-color 0.3s ease;
+    }
+
+    .scroll-down-link:hover {
+      background-color: black /* Change color on hover */
+    }
+
+    .scroll-down-link:hover .fa-circle {
+      transform: scale(1.2);
+    }
+	 .scroll-down-link .fa-arrow-down {
+      color:white;
+	  }
+
+    .scroll-down-link:active .fa-circle {
+      transform: scale(0.8);
+    }
+
+    .scroll-down-link .fa-circle {
+      position: absolute;
+      color: transparent;
+      transition: transform 0.3s ease;
+    }
+	</style>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+	
+	
   </head>
   <body  data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
 	  
@@ -29,7 +74,7 @@
 	    <div class="container">
 	      <a class="navbar-brand" href="index.html">DEV PUROHIT</a>
 	      <button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
-	        <span class="oi oi-menu"></span> Menu
+	        <span class="oi oi-menu"></span>Menu
 	      </button>
 
 	      <div class="collapse navbar-collapse" id="ftco-nav">
@@ -47,12 +92,12 @@
 	    </div>
 	  </nav>
 	  <section id="home-section" class="hero">
-		  <div class="home-slider  owl-carousel">
+		  <div class="home-slider  owl-carousel" >
 	      <div class="slider-item ">
 	      	<div class="overlay"></div>
-	        <div class="container">
-	          <div class="row d-md-flex no-gutters slider-text align-items-end justify-content-end" data-scrollax-parent="true">
-	          	<div class="one-third js-fullheight order-md-last img" style="background-image:url(images/.png);">
+	        <div class="container" >
+	          <div class="row d-md-flex no-gutters slider-text align-items-end justify-content-end" data-scrollax-parent="true" >
+	          	<div class="one-third js-fullheight order-md-last img" style="background-image:url(images/a.png);" >
 	          		<div class="overlay"></div>
 	          	</div>
 		          <div class="one-forth d-flex  align-items-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
@@ -85,15 +130,23 @@
 	        </div>
 	      </div>
 	    </div>
-    </section>
-
+		
+	</section>
+	
+  <div class="scroll-down">
+    <a href="#about-section" class="scroll-down-link">
+      <i class="fas fa-circle"></i>
+      <i class="fas fa-arrow-down"></i>
+    </a>
+  </div>
+	 
     <section class="ftco-about img ftco-section ftco-no-pb" id="about-section">
     	<div class="container">
     		<div class="row d-flex">
     			<div class="col-md-6 col-lg-5 d-flex">
     				<div class="img-about img d-flex align-items-stretch">
     					<div class="overlay"></div>
-	    				<div class="img d-flex align-self-stretch align-items-center" style="background-image:url(images/desk.jpg);">
+	    				<div class="img d-flex align-self-stretch align-items-center" style="background-image:url(images/me3.jpg);">
 	    				</div>
     				</div>
     			</div>
@@ -694,3 +747,4 @@
     
   </body>
 </html>
+	
