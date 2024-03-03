@@ -1,0 +1,39 @@
+/* Resume Styles */
+#resumeContent {
+    padding: 2em 0;
+}
+
+#resumeContent .inner {
+    text-align: center;
+}
+
+#resumeContent h1 {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+}
+
+#resumeContent p {
+    font-size: 1.2em;
+    color: #777;
+    margin-bottom: 2em;
+}
+
+#resumeContent hr {
+    border-top: 1px solid #ccc;
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 2em;
+}
+
+.resume-image {
+    margin: 0 auto;
+    max-width: 100%;
+    width: 800px;
+}
+
+.resume-image img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}
