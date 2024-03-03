@@ -37,3 +37,17 @@
     max-width: 100%;
     height: auto;
 }
+.resume-download a {
+    display: inline-block;
+    padding: 0.75em 1.5em;
+    background: #FF3B28;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 4px;
+    transition: background 0.3s;
+}
+
+.resume-download a:hover {
+    background: #388e3c;
+}
